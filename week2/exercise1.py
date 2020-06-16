@@ -18,7 +18,6 @@ for word in some_words:
 
 for x in some_words:
     print(x)
-
 print(some_words)
 
 if len(some_words) > 3:
