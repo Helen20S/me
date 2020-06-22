@@ -1,7 +1,9 @@
 TODO: Reflect on what you learned this week and what is still unclear.  
 Hello, I have done week 1 and here are my notes.dfg
 Visual Studio Code (command line);  Control~;  mkdir = make directory;
+```
 C:\users\Helen>mkdir 1161
+```
 cd = change directory;  cd1161  c:\users\Helen\1161>dir
 git = ? (could be "get" )  git clone (copying file);
 me = my work file   course = Bens' course file
