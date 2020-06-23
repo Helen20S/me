@@ -7,7 +7,7 @@ TODO: execute that line and write what actually happened next to it.
 See example for first print statement
 """
 import platform
-
+ 
 # I think this will print "hello! Let's get started" by calling the print function.
 print("hello! Let's get started")  # it printed "hello! Let's get started"
 
