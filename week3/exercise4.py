@@ -1,6 +1,7 @@
 # -*- coding: UTF-8 -*-
 """Week 3, Exercise 4."""
 
+ 
 
 import math
 # import time
