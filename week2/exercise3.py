@@ -51,10 +51,10 @@ def loops_1c(number_of_items=5, symbol="#"):
     E.g.: ['#', '#', '#', '#', '#']
     """
     stars=[]
-    for i in range (number_of_items):
-        stars.append(symbol)
+    for i in range (number_of_items=5):
+        stars.append(symbol("#"))
 
-    return stars
+    return hash
 
 
 def loops_2():
@@ -77,8 +77,8 @@ def loops_2():
     """
     stars=[]
     for i in range (10):
-        starsline=[]
-        for j in range (10):
+        starsline=[0-10]
+        for j in range (x 10):
             starsline.append("*")
         stars.append(starsline)
 
@@ -108,6 +108,13 @@ def loops_3():
     TIP: notice that this needs to to return strings of numbers,
          so call str(number) to cast.
     """
+    stars=[]
+    for i in range (10):
+        starsline=[0-10]
+        for j in range (x 10):
+            starsline.append("0, 1, 2, 3, 4, 5, 6, 7, 8, 9")
+        stars.append(starsline)
+
     return #loops_3(0-10,), list_ (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
 
 
@@ -128,6 +135,13 @@ def loops_4():
       ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
     ]
     """
+    stars=[]
+    for i in range (10):
+        starsline=[0-10]
+        for j in range (x 10):
+            starsline.append("0, 1, 2, 3, 4, 5, 6, 7, 8, 9")
+        stars.append(starsline)
+
     return #loops_4(List_[0-9 x 10], Line 102-111)
 
 
@@ -155,6 +169,13 @@ def loops_5():
         "There are {} green bottles".format(8)
     you'll come to see the pros and cons of each over time.
     """
+    stars=[]
+    for i in range (10):
+        starsline=[0-10]
+        for j in range (x 10):
+            starsline.append("0, 1, 2, 3, 4, 5, 6, 7, 8, 9")
+        stars.append(starsline)
+
     return #loops_5(+ str(10) + ['(i0, j0), ('i9, j4)']
 
 
@@ -179,6 +200,13 @@ def loops_6():
     You can use a variable.
     TIP: look out for the starting condition.
     """
+    stars=[]
+    for i in range (10):
+        starsline=[0-10]
+        for j in range (x 10):
+            starsline.append("0, 1, 2, 3, 4, 5, 6, 7, 8, 9")
+        stars.append(starsline)
+
     return #loops_6(['0',], ['0', '1',], ['0', '1', '2'], ['0', '1', '2', '3'], ['0', '1', '2', '3', '4'], ['0', '1', '2', '3', '4', '5'], ['0', '1', '2', '3', '4', '5', '6'], ['0', '1', '2', '3', '4', '5', '6', '7'], ['0', '1', '2', '3', '4', '5', '6', '7', '8'],['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'])
 
 
