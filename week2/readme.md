@@ -10,3 +10,4 @@ I might even have my electricity connected up to that, solar.  But why, does sol
 
 (Goulburn is a crazy country town, Argh! Annoyed with people, its like talking to a robot and it repeating back again; I suppose its okay, since, I have forgotten some computer bits and appointment with lecturer, etc...)
 Wk3: Another attempt to save, stage, commit and push after amending exercises.  I will need to look into it again, as I know I left something out.  But, this will do for now.  
+Added exercise 3 with the help from lecturer.  It all made sense, but, now I am on my own.  I feel lost.  I hope I can continue to finish these exercises today.  I need extra guidance.
