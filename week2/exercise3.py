@@ -34,9 +34,13 @@ def loops_1a():
 
     Using a for loop
     return a list of 10 items, each one a string with exacly one star in it.
-    E.g.: ['*', '*', '*', '*', '*', '*', '*', '*', '*', '*']
+    E.g.: ['*' '*', '*', '*', '*', '*', '*', '*', '*', '*']
     """
-    return loops_1a(10 * ['*',])
+    stars=[]
+    for i in range (10):
+        stars.append("*")
+
+    return stars
 
 
 def loops_1c(number_of_items=5, symbol="#"):
@@ -46,7 +50,11 @@ def loops_1c(number_of_items=5, symbol="#"):
     string with exacly one symbol in it.
     E.g.: ['#', '#', '#', '#', '#']
     """
-    return loops_1c(number_of_items=5, symbol="#")
+    stars=[]
+    for i in range (number_of_items):
+        stars.append(symbol)
+
+    return stars
 
 
 def loops_2():
@@ -67,6 +75,15 @@ def loops_2():
             ['*', '*', '*', '*', '*', '*', '*', '*', '*', '*'],
           ]
     """
+    stars=[]
+    for i in range (10):
+        starsline=[]
+        for j in range (10):
+            starsline.append("*")
+        stars.append(starsline)
+
+    return stars
+    
     return #loops_2((0-10 ['*',],) (x 10,))
 
 
