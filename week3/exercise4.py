@@ -27,7 +27,7 @@ def binary_search(low, high, actual_number):
     tries = 0
     guess = 0
     return {"guess": guess, "tries": tries}
-
+ 
 
 if __name__ == "__main__":
     print(binary_search(1, 100, 5))
