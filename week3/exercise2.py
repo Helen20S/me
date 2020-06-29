@@ -5,7 +5,7 @@ An example of how a guessing game might be written.
 
 
 import random
-
+   
 
 def exampleGuessingGame():
     """Play a game with the user.
