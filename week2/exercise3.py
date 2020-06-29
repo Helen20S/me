@@ -7,8 +7,8 @@ def is_odd(a_number):
 
     Look into modulo division using the '%' operator as one way of doing this.
     """
-    answer = a_number
-    return a_number
+    answer = (a_number%2)==1
+    return answer
 
 
 def fix_it(moves=True, should_move=True):
@@ -26,7 +26,7 @@ def fix_it(moves=True, should_move=True):
     Most people write this function with 4 return statements. 
     As an extra challenge, see if you can get that down to three.
     """
-    return (moves, == should_move)
+    return (moves == should_move)
 
 
 def loops_1a():
@@ -36,7 +36,7 @@ def loops_1a():
     return a list of 10 items, each one a string with exacly one star in it.
     E.g.: ['*', '*', '*', '*', '*', '*', '*', '*', '*', '*']
     """
-    return loops_1a(10 x ['*',])
+    return loops_1a(10 * ['*',])
 
 
 def loops_1c(number_of_items=5, symbol="#"):
@@ -67,7 +67,7 @@ def loops_2():
             ['*', '*', '*', '*', '*', '*', '*', '*', '*', '*'],
           ]
     """
-    return loops_2((0-10 ['*',],) (x 10,))
+    return #loops_2((0-10 ['*',],) (x 10,))
 
 
 def loops_3():
@@ -91,7 +91,7 @@ def loops_3():
     TIP: notice that this needs to to return strings of numbers,
          so call str(number) to cast.
     """
-    return loops_3(0-10,), list_ (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
+    return #loops_3(0-10,), list_ (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
 
 
 def loops_4():
@@ -111,7 +111,7 @@ def loops_4():
       ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
     ]
     """
-    return loops_4(List_[0-9 x 10], Line 102-111)
+    return #loops_4(List_[0-9 x 10], Line 102-111)
 
 
 def loops_5():
@@ -138,7 +138,7 @@ def loops_5():
         "There are {} green bottles".format(8)
     you'll come to see the pros and cons of each over time.
     """
-    return loops_5(+ str(10) + ['(i0, j0), ('i9, j4)']
+    return #loops_5(+ str(10) + ['(i0, j0), ('i9, j4)']
 
 
 
@@ -162,7 +162,7 @@ def loops_6():
     You can use a variable.
     TIP: look out for the starting condition.
     """
-    return loops_6(['0',], ['0', '1',], ['0', '1', '2'], ['0', '1', '2', '3'], ['0', '1', '2', '3', '4'], ['0', '1', '2', '3', '4', '5'], ['0', '1', '2', '3', '4', '5', '6'], ['0', '1', '2', '3', '4', '5', '6', '7'], ['0', '1', '2', '3', '4', '5', '6', '7', '8'],['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'])
+    return #loops_6(['0',], ['0', '1',], ['0', '1', '2'], ['0', '1', '2', '3'], ['0', '1', '2', '3', '4'], ['0', '1', '2', '3', '4', '5'], ['0', '1', '2', '3', '4', '5', '6'], ['0', '1', '2', '3', '4', '5', '6', '7'], ['0', '1', '2', '3', '4', '5', '6', '7', '8'],['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'])
 
 
 def loops_7():
@@ -186,7 +186,7 @@ def loops_7():
     This is a hard problem. Use lots of experimentation and draw
     lots of diagrams!
     """
-    return loops_7(*)=(1 (4 x [' '], (1 x ['*'], (4 x [' ']), (2 (3 x [' '], 3 x ['*'], 3 x [' ']), (3 (2 x [' '], (5 x ['*'], (2 x [' ']), (4 (1 x [' ']), (7 x ['*'], (1 x [' ']), (5 (9 x ['*'])
+    return #loops_7(*)=(1 (4 x [' '], (1 x ['*'], (4 x [' ']), (2 (3 x [' '], 3 x ['*'], 3 x [' ']), (3 (2 x [' '], (5 x ['*'], (2 x [' ']), (4 (1 x [' ']), (7 x ['*'], (1 x [' ']), (5 (9 x ['*'])
 
 def lp(some_kind_of_list, exercise_name):
     """Help to see what's going on.
