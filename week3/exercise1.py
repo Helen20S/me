@@ -29,7 +29,7 @@ def two_step_ranger(start, stop):
     Sometimes you want to hide complexity.
     Make a range function that always has a step size of 2
     """
-    return two_step_ranger(start, stop=)
+    return two_step_ranger(start, stop)
 
 
 def stubborn_asker(low, high):
@@ -40,7 +40,7 @@ def stubborn_asker(low, high):
 
     Look up the docs for input
     """
-    return stubborn_asker(low, high=)
+    return stubborn_asker(low, high)
 
 
 def not_number_rejector(message):
@@ -50,7 +50,7 @@ def not_number_rejector(message):
     (e.g. "cow", "six", "8!") then throw it out and ask for an actual number.
     When you do get a number, return it.
     """
-    return not_number_rejector(message=)
+    return not_number_rejector(message)
 
 
 def super_asker(low, high):
