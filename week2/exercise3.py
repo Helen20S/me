@@ -77,14 +77,12 @@ def loops_2():
     """
     stars=[]
     for i in range (10):
-        starsline=[0-10]
-        for j in range (x 10):
+        starsline=[]
+        for j in range (10):
             starsline.append("*")
         stars.append(starsline)
 
-    return stars
-    
-    return #loops_2((0-10 ['*',],) (x 10,))
+    return stars    
 
 
 def loops_3():
@@ -110,12 +108,12 @@ def loops_3():
     """
     stars=[]
     for i in range (10):
-        starsline=[0-10]
-        for j in range (x 10):
+        starsline=[]
+        for j in range (10):
             starsline.append("0, 1, 2, 3, 4, 5, 6, 7, 8, 9")
         stars.append(starsline)
 
-    return #loops_3(0-10,), list_ (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
+    return stars
 
 
 def loops_4():
@@ -137,12 +135,12 @@ def loops_4():
     """
     stars=[]
     for i in range (10):
-        starsline=[0-10]
-        for j in range (x 10):
+        starsline=[]
+        for j in range (10):
             starsline.append("0, 1, 2, 3, 4, 5, 6, 7, 8, 9")
         stars.append(starsline)
 
-    return #loops_4(List_[0-9 x 10], Line 102-111)
+    return stars
 
 
 def loops_5():
@@ -171,13 +169,12 @@ def loops_5():
     """
     stars=[]
     for i in range (10):
-        starsline=[0-10]
-        for j in range (x 10):
+        starsline=[]
+        for j in range (10):
             starsline.append("0, 1, 2, 3, 4, 5, 6, 7, 8, 9")
         stars.append(starsline)
 
-    return #loops_5(+ str(10) + ['(i0, j0), ('i9, j4)']
-
+    return stars
 
 
 def loops_6():
@@ -202,13 +199,13 @@ def loops_6():
     """
     stars=[]
     for i in range (10):
-        starsline=[0-10]
-        for j in range (x 10):
+        starsline=[]
+        for j in range (10):
             starsline.append("0, 1, 2, 3, 4, 5, 6, 7, 8, 9")
         stars.append(starsline)
 
-    return #loops_6(['0',], ['0', '1',], ['0', '1', '2'], ['0', '1', '2', '3'], ['0', '1', '2', '3', '4'], ['0', '1', '2', '3', '4', '5'], ['0', '1', '2', '3', '4', '5', '6'], ['0', '1', '2', '3', '4', '5', '6', '7'], ['0', '1', '2', '3', '4', '5', '6', '7', '8'],['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'])
-
+    return stars 
+    
 
 def loops_7():
     """Make a pyramid.
@@ -231,7 +228,8 @@ def loops_7():
     This is a hard problem. Use lots of experimentation and draw
     lots of diagrams!
     """
-    return #loops_7(*)=(1 (4 x [' '], (1 x ['*'], (4 x [' ']), (2 (3 x [' '], 3 x ['*'], 3 x [' ']), (3 (2 x [' '], (5 x ['*'], (2 x [' ']), (4 (1 x [' ']), (7 x ['*'], (1 x [' ']), (5 (9 x ['*'])
+    return 
+
 
 def lp(some_kind_of_list, exercise_name):
     """Help to see what's going on.
