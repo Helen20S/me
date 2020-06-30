@@ -168,7 +168,7 @@ def loops_5():
     you'll come to see the pros and cons of each over time.
     """
     stars=[]
-    for i in range (10):
+    for i in range (10):["(i0, j0), (i9, j4)]
         starsline=[]
         for j in range (10):
             starsline.append("0, 1, 2, 3, 4, 5, 6, 7, 8, 9")
