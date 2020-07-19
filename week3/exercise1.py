@@ -12,15 +12,21 @@ def loop_ranger(start, stop=None, step=1):
     The look up the docs for range(), you can answer this with just the range 
     function, but we'd like you to do it the long way, probably using a loop.
     """
-    return loop_ranger(start, stop=1, step=1)
+    the_numbers = []
+    x = start
+    while x < stop:
+        print(x)
+        the_numbers.append(x)
+        x = x + step
 
+    return the_numbers
 
 def lone_ranger(start, stop, step):
     """Duplicate the functionality of range.
 
     Look up the docs for range() and wrap it in a 1:1 way
     """
-    return lone_ranger(start, stop=1, step=1)
+    return lone_ranger(start, stop, step)
 
 
 def two_step_ranger(start, stop):
