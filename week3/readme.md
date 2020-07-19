@@ -3,7 +3,7 @@ Plodding along at the moment, listening is fine for now.  Will commit to finishi
 Well, tried to work with exercises 1-4 for week 3.  I will need to go back and refresh on all the activities. 
 290620 ran tests on exercise 4.  Not sure of exercise 2. I ran mini tests and ran the file but it says "You got it!"  I think I totally missed something.  Still looking but quick class will start at 4pm today.
 Learnt: that keyboard shortcuts are a lot faster to use when implementing data. 
-Notes: copy of what range does, do a while loop, exercise 1.  Returns a range object for 1st excercise. The rest of the exercises in exercise 1 is in simple format.
+Notes: copy of what range does, do a while loop, exercise 1.  Returns a range object for 1st exercise. The rest of the exercises in exercise 1 is in simple format.
 RANGE (10) FUNCTION GIVES YOU VALUES FROM 0, 9.  
 TO DO A RANGE: range(0, 10). x = range(10). x.next(). x.next. for i in range(10). 
 ... TAB INWARDS THEN TYPE :  print(i); ...;
@@ -56,8 +56,8 @@ input("give me some input")
 6
 input("give me some input: ")
 trees
-MAKE IT LOOK GOOD. USING THAT INPUT MEANS THAT USER CAN INTERACT WITH THE PROGRAM, USE THE INPUT THAT YOUR WRITING.
-NEED IT: GAMES
+MAKE IT LOOK GOOD. USING THAT INPUT MEANS THAT USER CAN INTERACT WITH THE PROGRAM, THAT YOUR WRITING.
+NEED IT for GAMES
 THINK LOGIC
-NO. OF REJECTOR; A TRY ACCEPT BLOCK USEFUL.  
+THE NOT_NUMBER OF REJECTOR; A TRY ACCEPT BLOCK USEFUL.  
 
