@@ -18,7 +18,6 @@ def loop_ranger(start, stop=None, step=1):
         print(x)
         the_numbers.append(x)
         x = x + step
-
     return the_numbers
 
 def lone_ranger(start, stop, step):
