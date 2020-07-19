@@ -34,7 +34,7 @@ def two_step_ranger(start, stop):
     Sometimes you want to hide complexity.
     Make a range function that always has a step size of 2
     """
-    return two_step_ranger(start, stop)
+    return two_step_ranger(start, stop, 2)
 
 
 def stubborn_asker(low, high):
@@ -45,6 +45,10 @@ def stubborn_asker(low, high):
 
     Look up the docs for input
     """
+    # in a while loop
+    # ask for a number
+    # if it's good, return it
+
     return stubborn_asker(low, high)
 
 
