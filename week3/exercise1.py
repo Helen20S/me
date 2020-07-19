@@ -34,7 +34,7 @@ def two_step_ranger(start, stop):
     Sometimes you want to hide complexity.
     Make a range function that always has a step size of 2
     """
-    return two_step_ranger(start, stop, 2)
+    return two_step_ranger(start, stop)
 
 
 def stubborn_asker(low, high):
@@ -49,7 +49,16 @@ def stubborn_asker(low, high):
     # ask for a number
     # if it's good, return it
 
-    return stubborn_asker(low, high)
+stubborn_number_input = int(input("enter a number: "))
+while low < stubborn_number_input > high:
+    if stubborn_number_input < low:
+        print ("try a higher number")
+    if stubborn_number_input > high:
+        print ("try a lower number")
+    if stubborn_number_input < low and if stubborn_number_input > high:
+        print ("you got the number")
+stubborn_number_input = int(input("enter a number: "))
+    return stubborn_number_input
 
 
 def not_number_rejector(message):
@@ -59,6 +68,11 @@ def not_number_rejector(message):
     (e.g. "cow", "six", "8!") then throw it out and ask for an actual number.
     When you do get a number, return it.
     """
+not_number_rejector = int(input("enter a number: ")):
+while message = stubborn_number_input
+    if stubborn_number_input = message
+        print ("ente a number: "")
+not_number_rejector = int(input("enter a number: ")):
     return not_number_rejector(message)
 
 
