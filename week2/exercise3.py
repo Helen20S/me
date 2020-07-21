@@ -37,9 +37,8 @@ def loops_1a():
     E.g.: ['*' '*', '*', '*', '*', '*', '*', '*', '*', '*']
     """
     stars=[]
-    for i in range (10):
+    for _ in range(10):
         stars.append("*")
-
     return stars
 
 
@@ -51,10 +50,10 @@ def loops_1c(number_of_items=5, symbol="#"):
     E.g.: ['#', '#', '#', '#', '#']
     """
     stars=[]
-    for i in range (number_of_items=5):
-        stars.append(symbol("#"))
+    for _ in range(number_of_items):
+        stars.append(symbol)
 
-    return hash
+    return stars
 
 
 def loops_2():
@@ -137,7 +136,7 @@ def loops_4():
     for i in range (10):
         starsline=[]
         for j in range (10):
-            starsline.append("0, 1, 2, 3, 4, 5, 6, 7, 8, 9")
+            starsline.append(str(j))
         stars.append(starsline)
 
     return stars
@@ -167,14 +166,14 @@ def loops_5():
         "There are {} green bottles".format(8)
     you'll come to see the pros and cons of each over time.
     """
-    stars=[]
-    for i in range (10):["(i0, j0), (i9, j4)]
+    coordinate_grid = []
+    for i in range (10):
         starsline=[]
-        for j in range (10):
-            starsline.append("0, 1, 2, 3, 4, 5, 6, 7, 8, 9")
-        stars.append(starsline)
+        for j in range (5):
+            starsline.append(f'(i{i}, j{j})')
+        coordinate_grid.append(starsline)
 
-    return stars
+    return coordinate_grid
 
 
 def loops_6():
