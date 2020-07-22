@@ -17,7 +17,8 @@ def loop_ranger(start, stop=None, step=1):
     while x < stop:
         print(x)
         the_numbers.append(x)
-        x = x + step
+        x = x + 1
+
     return the_numbers
 
 def lone_ranger(start, stop, step):
@@ -25,7 +26,15 @@ def lone_ranger(start, stop, step):
 
     Look up the docs for range() and wrap it in a 1:1 way
     """
-    return lone_ranger(start, stop, step)
+    the_numbers = []
+    x = start
+    list(range(10))
+    while x < stop:
+        print(x)
+        the_numbers.append(x)
+        x = x + 1
+
+    return lone_ranger(0, 10, 2)
 
 
 def two_step_ranger(start, stop):
@@ -34,7 +43,15 @@ def two_step_ranger(start, stop):
     Sometimes you want to hide complexity.
     Make a range function that always has a step size of 2
     """
-    return two_step_ranger(start, stop)
+    the_numbers = []
+    x = start
+    list(range(10, 2))
+    while x < stop:
+        print(x)
+        the_numbers.append(x)
+        x = x + 1
+
+    return two_step_ranger(10, 2)
 
 
 def stubborn_asker(low, high):
@@ -58,6 +75,7 @@ while low < stubborn_number_input > high:
     if stubborn_number_input < low and if stubborn_number_input > high:
         print ("you got the number")
 stubborn_number_input = int(input("enter a number: "))
+
     return stubborn_number_input
 
 
@@ -73,6 +91,7 @@ while message = stubborn_number_input
     if stubborn_number_input = message
         print ("ente a number: "")
 not_number_rejector = int(input("enter a number: ")):
+
     return not_number_rejector(message)
 
 
