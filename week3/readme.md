@@ -62,3 +62,19 @@ THINK LOGIC
 THE NOT_NUMBERS OF REJECTOR; A TRY ACCEPT BLOCK USEFUL.  
 
 Exercise 1 : Line 48 to 76 made changes.  
+
+AUTOFORMAT      At 2:00:00  20/07/20
+Control
+Format on save is tick symbol.
+save exercise, fixes formating issues.
+Never use   Continuum Break  See Lecture 3 Video recording.  2:37
+Keep it simple. Test string to see if it's a number.
+Copying it testing in there.
+
+Lecture 3: 2:50:00      LOOK AGAIN!!!
+Red warning.    Doubt right thing that was saven money.
+
+You need to store the original value    2:59:00.
+ONLY NO (NOT AN INTEGER) IS FALSE IT'S A STRING FALSE = FALSE, TRUE STRING = 23.
+Convert STR to integer if works in try you TRY ACCEPTING.  ON.
+
