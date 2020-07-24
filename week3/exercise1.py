@@ -12,7 +12,6 @@ def loop_ranger(start, stop=None, step=1):
     The look up the docs for range(), you can answer this with just the range 
     function, but we'd like you to do it the long way, probably using a loop.
     """
-
     the_numbers = []
     x = start
     while x < stop:
@@ -27,7 +26,6 @@ def lone_ranger(start, stop, step):
 
     Look up the docs for range() and wrap it in a 1:1 way
     """
-
     my_range = range(start, stop, step)
 
     return my_range
@@ -39,7 +37,6 @@ def two_step_ranger(start, stop):
     Sometimes you want to hide complexity.
     Make a range function that always has a step size of 2
     """
-
     my_range = range(start, stop, 2)
 
     return my_range
@@ -94,6 +91,25 @@ def super_asker(low, high):
     Try to call at least one of the other functions to minimise the
     amount of code.
     """
+    super_asker_input = int(input("enter a number: "))
+    while low < super_number_input > high:
+        if super_number_input < low:
+            print ("try a higher number")
+        if super_number_input > high:
+            print ("try a lower number")
+        if super_number_input < low and super_number_input > high:
+            print ("you got the number")
+    super_number_input = int(input("enter a number: "))
+
+    return super_number_input
+
+    not_number_rejector = int(input("enter a number: "))
+    while message = stubborn_number_input
+        if stubborn_number_input = message
+            print ("enter a number: "")
+    not_number_rejector = int(input("enter a number: ")):
+
+    return super_number_input(message) + not_number_rejector = int(input("enter a number: ")):
 
     return super_asker(low, high)
 
