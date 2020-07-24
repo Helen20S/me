@@ -41,10 +41,10 @@ CONTROL SHIFT P :  KEYBOARD SHORTCUTS  :  BEING FAST IN KEYBOARD SKILLS.
 
 IF YOU ARE UNSURE WHAT YOU ARE DOING, YOU CAN PRESS  CONTROL + P, AND IT TELLS YOU WHERE YOU ARE AT.
 
-WRAP:( 
+WRAP: 
 range(10); list(range(10)); def old_range(end):;  AT THIS POINT, WE ARE TRYING TO MAKE COMPLEXITY DISAPPEAR.  ABSTRACTING WAY OF COMPLEXITY.
 
-...    list(range(0, end, 1)); ...; old_range(7); def old_range(end)):;
+...    list(range(0, end, 1)); ...; old_range(7); if old_range(end)):;
     return list(range(0, end, 1));
     old+range(7).
 RETURNS AS A LIST EXTRACTED BIBS AND BOBS. WRAP RANGE INSIDE IN FUNCTION IN WAY INSIDE AND GET BACK LIST.
