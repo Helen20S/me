@@ -1,6 +1,7 @@
 # -*- coding: UTF-8 -*-
 """Week 3, Exercise 4."""
 
+ 
 
 import math
 # import time
@@ -25,6 +26,7 @@ def binary_search(low, high, actual_number):
     """
     guess = 0
     tries = 0
+
     return {"guess": guess, "tries": tries}
  
 
