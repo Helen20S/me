@@ -9,38 +9,53 @@ import string
 import time
 
 
-def string_please() -> str:
+def string_please(apples) -> str:
     """Returns a string, anything you like."""
-    return None
+
+    return string_please(apples)
 
 
-def list_please() -> list:
+def list_please(1, 2, 3, 4, 5) -> list:
     """Returns a list, anything you like."""
-    return None
+
+    list_please + my_range(0-4)
+
+    return list_please + my_range(0-4)
 
 
-def dictionary_please() -> dict:
+
+def dictionary_please{apple, apricot + ' parrot, squawk'}-> dict:
     """Returns a dictionary, anything you like."""
-    return None
+
+    my_dict = dictionary_please("apple, apricot" + 'parrot, squawk')
+    list (my_dict = {"apple, apricot" + ' parrot, squawk'})
+
+    return dictionary_please{"apple, apricot" + ' parrot, squawk'}
 
 
 def is_it_5(some_number) -> bool:
     """Returns True if the argument passed is 5, otherwise returns False."""
+
     well_is_it = None
-    return well_is_it
+    return is_it_5(some_number)
 
 
 def take_five(some_number) -> int:
     """Subtracts 5 from some_number."""
-    return None
+
+    return take_five(some_number)
 
 
-def greet(name="Towering Timmy"):
+def greet(name="Funny Bill"):
     """Return a greeting.
     return a string of "Hello " and the name argument.
     E.g. if given as "Towering Timmy" it should return "Hello Towering Timmy"
     """
-    return None
+    def go_greet(Funny_Bill):
+        print 'greet' + Funny_Bill +  'pilchard'
+
+    return go_greet('Funny_Bill'):
+        greet Funny Bill pilchard
 
 
 def three_counter(input_list=[1, 4, 3, 5, 7, 1, 3, 2, 3, 3, 5, 3, 7]):
@@ -48,6 +63,7 @@ def three_counter(input_list=[1, 4, 3, 5, 7, 1, 3, 2, 3, 3, 5, 3, 7]):
     Return an integer.
     TIP: the test will use a different input_list, so don't just return 5
     """
+    three_counter(input_list=(range[0, 7, 3]))
 
     return count
 
@@ -56,6 +72,7 @@ def n_counter(search_for_this, input_list=[1, 4, 3, 5, 7, 1, 3, 2, 3, 3, 5, 3, 7
     """Count the number of times search_for_this shows up in the input_list.
     Return an integer.
     """
+    n_counter(search_for_this, input_list=[13])
 
     return count
 
@@ -93,7 +110,7 @@ def put_behind_bars(input_string="very naughty boy"):
     TIP: make sure that you have a pipe on both ends of the string.
     """
 
-    return None
+    return put_behind_bars
 
 
 def pet_filter(letter="a"):
